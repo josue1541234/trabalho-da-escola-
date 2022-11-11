@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+.form{
+    max-width: 320px;
+    text-align:center;
+    margin:80px auto auto auto;
+}
+h1{
+    padding-bottom:20px;
+    text-shadow:0px 17px 25px rgb(0, 0, 0);
+}
+form{
+    
+    background-color:rgba(92, 92, 196, 0.489);
+    padding:20px;
+    border-radius:10px;
+    border:1px solid black;
+    box-shadow:0px 1px 6px 1px black;
+    
+    
+}
+label{
+    font-size:1.2em;
+    text-transform: capitalize;
+
+}
+input{
+    color:white;
+    background-color:rgba(32, 32, 138, 0.593);
+    text-align: center;
+    border-radius:5px;
+    border:1px solid black;
+    box-shadow:inset 0px 0px 4px black;
+    padding:2px;
+    margin-top: 15px;
+}
+.data{
+    width: 170px;
+}
+button{
+    background-color:rgba(121, 121, 255, 0.795);
+    font-size:16px;
+    margin-top:5px;
+    padding:4px;
+    border-radius:5px;
+    box-shadow:inset 0px 1px 5px black;
+
+}
+button:hover{
+    transform:scale(1.2) ;
+    transition: 0.5s;
+}
+.login{
+    margin-top:20px;
+    border:1px solid black;
+    border-radius:5px;
+    padding:4px;
+}
+.login > a {
+    text-decoration:none;
+    text-transform:capitalize; 
+    padding-left:13px;
+}
+.login > a:link{
+    color:rgb(0, 115, 255);
+}
+.login > a:hover{
+    color:rgb(0, 99, 164);
+    text-decoration: underline;
+
+}
+
+/* arquivo da pagina de login*/
+
+.form1{
+    max-width: 320px;
+    text-align:center;
+    margin:80px auto auto auto;
+}
+.form1 input{
+   margin-bottom:15px;
+}
+.direito{
+    max-width: 320px;
+    text-align: center;
+    color:white;
+    background-color:green;
+    font-size:2em;
+    text-transform:capitalize;
+    margin:20px auto 20px auto;
+    padding: 5px;
+    border-radius:7px;
+}
+
+.ca{
+    margin: auto;
+    max-width: 250px;
+    margin-top:20px;
+    padding:5px;
+    border:1px solid black;
+    border-radius:5px;
+}
+.ca  a {
+    text-decoration:none;
+    text-transform:capitalize;
+}
+.ca a:link{
+    color:rgb(0, 115, 255);
+}
+.ca a:hover{
+    color:rgb(0, 99, 164);
+    text-decoration: underline;
+
+}
