@@ -11,9 +11,9 @@
     text-align:center;
     margin:80px auto auto auto;
 }
-.form h1{
+h1{
     padding-bottom:20px;
-    text-shadow:0px 17px 30px rgb(0, 0, 0);
+    text-shadow:0px 17px 25px rgb(0, 0, 0);
 }
 form{
     
@@ -54,7 +54,7 @@ button{
 }
 button:hover{
     transform:scale(1.2) ;
-    transition: 1s;
+    transition: 0.5s;
 }
 .login{
     margin-top:20px;
@@ -64,5 +64,57 @@ button:hover{
 }
 .login > a {
     text-decoration:none;
-    
+    text-transform:capitalize; 
+    padding-left:13px;
+}
+.login > a:link{
+    color:rgb(0, 115, 255);
+}
+.login > a:hover{
+    color:rgb(0, 99, 164);
+    text-decoration: underline;
+
+}
+
+/* arquivo da pagina de login*/
+
+.form1{
+    max-width: 320px;
+    text-align:center;
+    margin:80px auto auto auto;
+}
+.form1 input{
+   margin-bottom:15px;
+}
+.direito{
+    max-width: 320px;
+    text-align: center;
+    color:white;
+    background-color:green;
+    font-size:2em;
+    text-transform:capitalize;
+    margin:20px auto 20px auto;
+    padding: 5px;
+    border-radius:7px;
+}
+
+.ca{
+    margin: auto;
+    max-width: 250px;
+    margin-top:20px;
+    padding:5px;
+    border:1px solid black;
+    border-radius:5px;
+}
+.ca  a {
+    text-decoration:none;
+    text-transform:capitalize;
+}
+.ca a:link{
+    color:rgb(0, 115, 255);
+}
+.ca a:hover{
+    color:rgb(0, 99, 164);
+    text-decoration: underline;
+
 }
