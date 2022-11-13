@@ -5,7 +5,13 @@
     padding:0px;
     font-family:sans-serif;
 }
-
+body{
+    background-image:linear-gradient(to left,rgb(3, 3, 95),blue)
+}
+marquee{
+    color:white;
+    background-color:transparent;
+}
 .form{
     max-width: 320px;
     text-align:center;
@@ -14,6 +20,7 @@
 h1{
     padding-bottom:20px;
     text-shadow:0px 17px 25px rgb(0, 0, 0);
+    
 }
 form{
     
@@ -58,7 +65,8 @@ button:hover{
 }
 .login{
     margin-top:20px;
-    border:1px solid black;
+    border:1px solid white;
+    color:white;
     border-radius:5px;
     padding:4px;
 }
@@ -66,12 +74,11 @@ button:hover{
     text-decoration:none;
     text-transform:capitalize; 
     padding-left:13px;
+    color:rgb(255, 255, 255);
 }
-.login > a:link{
-    color:rgb(0, 115, 255);
-}
+
 .login > a:hover{
-    color:rgb(0, 99, 164);
+    color:rgb(190, 200, 209);
     text-decoration: underline;
 
 }
@@ -109,12 +116,10 @@ button:hover{
 .ca  a {
     text-decoration:none;
     text-transform:capitalize;
-}
-.ca a:link{
-    color:rgb(0, 115, 255);
+    color:white;
 }
 .ca a:hover{
-    color:rgb(0, 99, 164);
+    color:rgb(190, 200, 209);
     text-decoration: underline;
 
 }
